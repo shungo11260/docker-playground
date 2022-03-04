@@ -3,5 +3,5 @@ services:
   app:
     build: .
     volumes:
-      - ./test:/home/test
+      - ./test:/home/workspace
     tty: true

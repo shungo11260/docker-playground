@@ -5,4 +5,4 @@ RUN apt update && \
     apt install -y nodejs
 
 ENV HOME=/home/
-WORKDIR $HOME
+WORKDIR $HOME/workspace
